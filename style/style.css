@@ -133,3 +133,46 @@ body{
 .app__platform:nth-child(2){
     background-image: url('../img/app.apple.png');
 }
+
+
+@media only screen and (max-width: 1250px){
+    .countainer{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left, .app{
+        display: none;
+    }
+
+    .logotipo{
+        width: 15rem;
+        height: 5rem;
+    }
+
+}
+
+@media only screen and (max-width: 425px){
+
+    body{
+        background-color: white;
+    }
+
+    .countainer{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left, .app{
+        display: none;
+    }
+
+    .logotipo{
+        width: 15rem;
+        height: 5rem;
+    }
+
+    
+}
